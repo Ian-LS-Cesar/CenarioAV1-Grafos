@@ -34,7 +34,7 @@ def bfs_caminho_mais_curto(grafo, partida, chegada):
     # Caso não haja caminho entre os 2 vértices
     return None
 
-# Example grafo represented as an adjacency list
+# Exemplo de grafo usando lista de ajdacência
 grafo = {
     'A': ['B', 'N'],
     'B': ['A', 'C'],
@@ -52,7 +52,6 @@ grafo = {
     'N': ['M', 'A']
 }
 
-# Example usage
 partida = input("Digite o vértice de partida do Fantasma (A - N): ") 
 chegada = input("Digite o vértice de chegada do Fantasma (A - N): ")   
 
